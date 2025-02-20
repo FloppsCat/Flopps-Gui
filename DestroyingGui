@@ -1,0 +1,431 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local screenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local CheeseButton = Instance.new("TextButton")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local InfYieldButton = Instance.new("TextButton")
+local TextLabel_8 = Instance.new("TextLabel")
+local FlingGuiButton = Instance.new("TextButton")
+local TextLabel_9 = Instance.new("TextLabel")
+local CloseGuiButton = Instance.new("TextButton")
+local TextButton = Instance.new("TextButton")
+local TextLabel_10 = Instance.new("TextLabel")
+local AnimDelButton = Instance.new("TextButton")
+local FlingAllButton = Instance.new("TextButton")
+local TextLabel_11 = Instance.new("TextLabel")
+
+--Properties:
+
+screenGui.Name = "screenGui"
+screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = screenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.0322580636, 0, 0.472636819, 0)
+Frame.Size = UDim2.new(0, 614, 0, 391)
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Size = UDim2.new(0, 614, 0, 391)
+ImageLabel.Image = "rbxassetid://108185207036071"
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(-0.00488599343, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 203, 0, 38)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Trolling"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 40.000
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.358306199, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 190, 0, 38)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Local Player"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 40.000
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.705211699, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(0, 181, 0, 38)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "FE"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 40.000
+
+TextLabel_4.Parent = Frame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.32410422, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 21, 0, 391)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = ""
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 14.000
+
+TextLabel_5.Parent = Frame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.667752326, 0, 0, 0)
+TextLabel_5.Size = UDim2.new(0, 23, 0, 391)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = ""
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextSize = 14.000
+
+CheeseButton.Name = "CheeseButton"
+CheeseButton.Parent = Frame
+CheeseButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+CheeseButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CheeseButton.BorderSizePixel = 0
+CheeseButton.Position = UDim2.new(0, 0, 0.143222511, 0)
+CheeseButton.Size = UDim2.new(0, 200, 0, 50)
+CheeseButton.Font = Enum.Font.SourceSans
+CheeseButton.Text = "Cheese em Gui"
+CheeseButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+CheeseButton.TextSize = 30.000
+
+TextLabel_6.Parent = Frame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(1.24257236e-08, 0, 0.0971866995, 0)
+TextLabel_6.Size = UDim2.new(0, 199, 0, 18)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = ""
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.TextSize = 14.000
+
+TextLabel_7.Parent = Frame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.358306199, 0, 0.0971866995, 0)
+TextLabel_7.Size = UDim2.new(0, 189, 0, 18)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = ""
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.TextSize = 14.000
+
+InfYieldButton.Name = "InfYieldButton"
+InfYieldButton.Parent = Frame
+InfYieldButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+InfYieldButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfYieldButton.BorderSizePixel = 0
+InfYieldButton.Position = UDim2.new(0.358306199, 0, 0.143222511, 0)
+InfYieldButton.Size = UDim2.new(0, 189, 0, 50)
+InfYieldButton.Font = Enum.Font.SourceSans
+InfYieldButton.Text = "Inf Yield"
+InfYieldButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfYieldButton.TextSize = 30.000
+
+TextLabel_8.Parent = Frame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(1.24257236e-08, 0, 0.271099746, 0)
+TextLabel_8.Size = UDim2.new(0, 199, 0, 18)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = ""
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.TextSize = 14.000
+
+FlingGuiButton.Name = "FlingGuiButton"
+FlingGuiButton.Parent = Frame
+FlingGuiButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+FlingGuiButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FlingGuiButton.BorderSizePixel = 0
+FlingGuiButton.Position = UDim2.new(1.24257236e-08, 0, 0.317135543, 0)
+FlingGuiButton.Size = UDim2.new(0, 199, 0, 50)
+FlingGuiButton.Font = Enum.Font.SourceSans
+FlingGuiButton.Text = "Fling Gui"
+FlingGuiButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+FlingGuiButton.TextSize = 30.000
+
+TextLabel_9.Parent = Frame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
+TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0, 0, -0.0920716077, 0)
+TextLabel_9.Size = UDim2.new(0, 614, 0, 36)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "Flopps Gui V1 "
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.TextSize = 40.000
+
+CloseGuiButton.Name = "CloseGuiButton"
+CloseGuiButton.Parent = Frame
+CloseGuiButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseGuiButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CloseGuiButton.BorderSizePixel = 0
+CloseGuiButton.Position = UDim2.new(0.944625378, 0, -0.0920716077, 0)
+CloseGuiButton.Size = UDim2.new(0, 34, 0, 36)
+CloseGuiButton.Font = Enum.Font.SourceSans
+CloseGuiButton.Text = "X"
+CloseGuiButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseGuiButton.TextSize = 50.000
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.889250815, 0, -0.0920716077, 0)
+TextButton.Size = UDim2.new(0, 34, 0, 36)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "-"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 50.000
+
+TextLabel_10.Parent = Frame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+TextLabel_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0.705211699, 0, 0.0971866995, 0)
+TextLabel_10.Size = UDim2.new(0, 180, 0, 18)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = ""
+TextLabel_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.TextSize = 14.000
+
+AnimDelButton.Name = "AnimDelButton"
+AnimDelButton.Parent = Frame
+AnimDelButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+AnimDelButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AnimDelButton.BorderSizePixel = 0
+AnimDelButton.Position = UDim2.new(0.705211699, 0, 0.143222511, 0)
+AnimDelButton.Size = UDim2.new(0, 181, 0, 50)
+AnimDelButton.Font = Enum.Font.SourceSans
+AnimDelButton.Text = "Anim delete"
+AnimDelButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+AnimDelButton.TextSize = 30.000
+
+FlingAllButton.Name = "FlingAllButton"
+FlingAllButton.Parent = Frame
+FlingAllButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+FlingAllButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FlingAllButton.BorderSizePixel = 0
+FlingAllButton.Position = UDim2.new(-0.00488599343, 0, 0.491048604, 0)
+FlingAllButton.Size = UDim2.new(0, 203, 0, 50)
+FlingAllButton.Font = Enum.Font.SourceSans
+FlingAllButton.Text = "Fling All"
+FlingAllButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+FlingAllButton.TextSize = 30.000
+
+TextLabel_11.Parent = Frame
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+TextLabel_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Position = UDim2.new(-0.00488599343, 0, 0.445012778, 0)
+TextLabel_11.Size = UDim2.new(0, 201, 0, 18)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = ""
+TextLabel_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.TextSize = 14.000
+
+-- Scripts:
+
+local function LQTPXFO_fake_script() -- CheeseButton.LocalScript 
+	local script = Instance.new('LocalScript', CheeseButton)
+
+	CheeseButton = script.Parent
+	CheeseButton.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppsCat/Cheese-gui/refs/heads/main/FlingGui"))()
+	end)
+end
+coroutine.wrap(LQTPXFO_fake_script)()
+local function XFJSEV_fake_script() -- InfYieldButton.LocalScript 
+	local script = Instance.new('LocalScript', InfYieldButton)
+
+	InfYieldButton = script.Parent
+	InfYieldButton.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(XFJSEV_fake_script)()
+local function VJLB_fake_script() -- FlingGuiButton.LocalScript 
+	local script = Instance.new('LocalScript', FlingGuiButton)
+
+	FlingGuiButton = script.Parent
+	FlingGuiButton.MouseButton1Click:Connec(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppsCat/Fling-Gui/refs/heads/main/Project%20Floppscat"))()
+	end)
+end
+coroutine.wrap(VJLB_fake_script)()
+local function FZYDIE_fake_script() -- CloseGuiButton.LocalScript 
+	local script = Instance.new('LocalScript', CloseGuiButton)
+
+	screenGui = screenGui.Parent
+	CloseGuiButton = script.Parent
+	CloseGuiButton.MouseButton1Click:Connect(function()
+		screenGui:Destroy()
+	end)
+end
+coroutine.wrap(FZYDIE_fake_script)()
+local function FGMCV_fake_script() -- CloseGuiButton.LocalScript 
+	local script = Instance.new('LocalScript', CloseGuiButton)
+
+	screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	screenGui = screenGui.Parent
+	
+	CloseGuiButton = script.Parent
+	CloseGuiButton.MouseButton1Click:Connect(function()
+		screenGui:Destroy()
+	end)
+end
+coroutine.wrap(FGMCV_fake_script)()
+local function QTWBA_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	Frame = script.Parent
+	Frame.Active = true
+	Frame.Draggable = true
+end
+coroutine.wrap(QTWBA_fake_script)()
+local function PENHKBA_fake_script() -- AnimDelButton.LocalScript 
+	local script = Instance.new('LocalScript', AnimDelButton)
+
+	R6Button = script.Parent
+	R6Button.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		-- Disable default animations
+		if character:FindFirstChild("t4t_animateR6") then
+			character.t4t_animateR6.Enabled = false
+		elseif character:FindFirstChild("Animate") then
+			character.Animate.Enabled = false
+		end
+	
+		-- Stop all current animations
+		local animator = humanoid:FindFirstChild("Animator")
+		if animator then
+			for _, track in pairs(animator:GetPlayingAnimationTracks()) do
+				track:Stop()
+			end
+		end
+	
+		-- Emote Animations Setup
+		local emotes = {
+			["/e dance1"] = {id = "rbxassetid://35654637", looped = false},
+			["/e slingshot"] = {id = "rbxassetid://33248324", looped = false},
+			["/e laugh"] = {id = "rbxassetid://129423131", looped = false},
+			["/e wave"] = {id = "rbxassetid://128777973", looped = false},
+			["/e drink"] = {id = "rbxassetid://29517689", looped = false}
+		}
+	
+		local currentEmote = nil
+		local isEmoting = false
+	
+		player.Chatted:Connect(function(msg)
+			msg = msg:lower()
+			if emotes[msg] then
+				if currentEmote and currentEmote.IsPlaying then
+					currentEmote:Stop()
+				end
+	
+				for _, track in pairs(animator:GetPlayingAnimationTracks()) do
+					track:Stop()
+				end
+	
+				local emoteData = emotes[msg]
+				local emoteAnimation = Instance.new("Animation")
+				emoteAnimation.AnimationId = emoteData.id
+				currentEmote = humanoid:LoadAnimation(emoteAnimation)
+				currentEmote.Looped = emoteData.looped
+				currentEmote:Play()
+				isEmoting = true
+			end
+		end)
+	
+		-- Stop emote if the player moves (excluding rotation)
+		game:GetService("RunService").RenderStepped:Connect(function()
+			if isEmoting and humanoid.MoveDirection.Magnitude > 0 then
+				if currentEmote and currentEmote.IsPlaying then
+					currentEmote:Stop()
+				end
+				isEmoting = false
+			end
+		end)
+	
+		-- Jump Animation Setup
+		local jumpAnimation = Instance.new("Animation")
+		jumpAnimation.AnimationId = "rbxassetid://97170520"
+		local jumpTrack = humanoid:LoadAnimation(jumpAnimation)
+		jumpTrack.Looped = false
+	
+		-- Walk Animation Setup
+		local walkAnimation = Instance.new("Animation")
+		walkAnimation.AnimationId = "rbxassetid://214748382"
+		local walkTrack = humanoid:LoadAnimation(walkAnimation)
+		walkTrack.Looped = true
+	
+		-- Jump Animation Trigger
+		humanoid.StateChanged:Connect(function(_, newState)
+			if newState == Enum.HumanoidStateType.Jumping then
+				jumpTrack:Play()
+				jumpTrack:AdjustSpeed(1)
+				jumpTrack.TimePosition = 0.2  -- Delay adjustment for better timing
+			elseif newState == Enum.HumanoidStateType.Landed then
+				jumpTrack:Stop()
+			end
+		end)
+	
+		-- Walk Animation Trigger using MoveDirection
+		game:GetService("RunService").RenderStepped:Connect(function()
+			if humanoid.MoveDirection.Magnitude > 0 and humanoid.FloorMaterial ~= Enum.Material.Air then
+				if not walkTrack.IsPlaying then
+					walkTrack:Play()
+				end
+			else
+				if walkTrack.IsPlaying then
+					walkTrack:Stop()
+				end
+			end
+		end)
+	end)
+end
+coroutine.wrap(PENHKBA_fake_script)()
+local function YVBVIK_fake_script() -- FlingAllButton.LocalScript 
+	local script = Instance.new('LocalScript', FlingAllButton)
+
+	FlingAllButton = script.Parent
+	FlingAllButton.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fling-All-Script-20486"))()
+	end)
+end
+coroutine.wrap(YVBVIK_fake_script)()
+local function HKXWOR_fake_script() -- screenGui.LocalScript 
+	local script = Instance.new('LocalScript', screenGui)
+
+	screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	screenGui = screenGui.Parent
+	screenGui.ResetOnSpawn = false
+end
+coroutine.wrap(HKXWOR_fake_script)()
