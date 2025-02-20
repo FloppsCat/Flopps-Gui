@@ -48,8 +48,7 @@ TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
 TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(-0.00488599343, 0, 0, 0)
-TextLabel.Size = UDim2.new(0, 203, 0, 38)
+TextLabel.Size = UDim2.new(0, 200, 0, 38)
 TextLabel.Font = Enum.Font.SourceSans
 TextLabel.Text = "Trolling"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -105,7 +104,7 @@ CheeseButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 CheeseButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 CheeseButton.BorderSizePixel = 0
 CheeseButton.Position = UDim2.new(0, 0, 0.143222511, 0)
-CheeseButton.Size = UDim2.new(0, 200, 0, 50)
+CheeseButton.Size = UDim2.new(0, 198, 0, 50)
 CheeseButton.Font = Enum.Font.SourceSans
 CheeseButton.Text = "Cheese em Gui"
 CheeseButton.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -115,8 +114,8 @@ TextLabel_6.Parent = Frame
 TextLabel_6.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
 TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_6.BorderSizePixel = 0
-TextLabel_6.Position = UDim2.new(1.24257236e-08, 0, 0.0971866995, 0)
-TextLabel_6.Size = UDim2.new(0, 199, 0, 18)
+TextLabel_6.Position = UDim2.new(0, 0, 0.0971866995, 0)
+TextLabel_6.Size = UDim2.new(0, 198, 0, 18)
 TextLabel_6.Font = Enum.Font.SourceSans
 TextLabel_6.Text = ""
 TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -250,7 +249,7 @@ TextLabel_11.TextSize = 14.000
 
 -- Scripts:
 
-local function LQTPXFO_fake_script() -- CheeseButton.LocalScript 
+local function XCMWR_fake_script() -- CheeseButton.LocalScript 
 	local script = Instance.new('LocalScript', CheeseButton)
 
 	CheeseButton = script.Parent
@@ -258,8 +257,8 @@ local function LQTPXFO_fake_script() -- CheeseButton.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppsCat/Cheese-gui/refs/heads/main/FlingGui"))()
 	end)
 end
-coroutine.wrap(LQTPXFO_fake_script)()
-local function XFJSEV_fake_script() -- InfYieldButton.LocalScript 
+coroutine.wrap(XCMWR_fake_script)()
+local function LPGOP_fake_script() -- InfYieldButton.LocalScript 
 	local script = Instance.new('LocalScript', InfYieldButton)
 
 	InfYieldButton = script.Parent
@@ -267,47 +266,35 @@ local function XFJSEV_fake_script() -- InfYieldButton.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(XFJSEV_fake_script)()
-local function VJLB_fake_script() -- FlingGuiButton.LocalScript 
+coroutine.wrap(LPGOP_fake_script)()
+local function ASBHJ_fake_script() -- FlingGuiButton.LocalScript 
 	local script = Instance.new('LocalScript', FlingGuiButton)
 
 	FlingGuiButton = script.Parent
-	FlingGuiButton.MouseButton1Click:Connec(function()
+	FlingGuiButton.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppsCat/Fling-Gui/refs/heads/main/Project%20Floppscat"))()
 	end)
 end
-coroutine.wrap(VJLB_fake_script)()
-local function FZYDIE_fake_script() -- CloseGuiButton.LocalScript 
+coroutine.wrap(ASBHJ_fake_script)()
+local function RJAFLR_fake_script() -- CloseGuiButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseGuiButton)
 
-	screenGui = screenGui.Parent
-	CloseGuiButton = script.Parent
+	local screenGui = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	local CloseGuiButton = script.Parent
 	CloseGuiButton.MouseButton1Click:Connect(function()
 		screenGui:Destroy()
 	end)
 end
-coroutine.wrap(FZYDIE_fake_script)()
-local function FGMCV_fake_script() -- CloseGuiButton.LocalScript 
-	local script = Instance.new('LocalScript', CloseGuiButton)
-
-	screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-	screenGui = screenGui.Parent
-	
-	CloseGuiButton = script.Parent
-	CloseGuiButton.MouseButton1Click:Connect(function()
-		screenGui:Destroy()
-	end)
-end
-coroutine.wrap(FGMCV_fake_script)()
-local function QTWBA_fake_script() -- Frame.LocalScript 
+coroutine.wrap(RJAFLR_fake_script)()
+local function PYCBZR_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	Frame = script.Parent
 	Frame.Active = true
 	Frame.Draggable = true
 end
-coroutine.wrap(QTWBA_fake_script)()
-local function PENHKBA_fake_script() -- AnimDelButton.LocalScript 
+coroutine.wrap(PYCBZR_fake_script)()
+local function IJQI_fake_script() -- AnimDelButton.LocalScript 
 	local script = Instance.new('LocalScript', AnimDelButton)
 
 	R6Button = script.Parent
@@ -411,8 +398,8 @@ local function PENHKBA_fake_script() -- AnimDelButton.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(PENHKBA_fake_script)()
-local function YVBVIK_fake_script() -- FlingAllButton.LocalScript 
+coroutine.wrap(IJQI_fake_script)()
+local function OYZQMO_fake_script() -- FlingAllButton.LocalScript 
 	local script = Instance.new('LocalScript', FlingAllButton)
 
 	FlingAllButton = script.Parent
@@ -420,12 +407,4 @@ local function YVBVIK_fake_script() -- FlingAllButton.LocalScript
 		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fling-All-Script-20486"))()
 	end)
 end
-coroutine.wrap(YVBVIK_fake_script)()
-local function HKXWOR_fake_script() -- screenGui.LocalScript 
-	local script = Instance.new('LocalScript', screenGui)
-
-	screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-	screenGui = screenGui.Parent
-	screenGui.ResetOnSpawn = false
-end
-coroutine.wrap(HKXWOR_fake_script)()
+coroutine.wrap(OYZQMO_fake_script)()
