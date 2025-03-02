@@ -300,7 +300,7 @@ AntiFlingButton.TextWrapped = true
 
 -- Scripts:
 
-local function WLIKMM_fake_script() -- CheeseButton.LocalScript 
+local function SBBPA_fake_script() -- CheeseButton.LocalScript 
 	local script = Instance.new('LocalScript', CheeseButton)
 
 	CheeseButton = script.Parent
@@ -308,8 +308,8 @@ local function WLIKMM_fake_script() -- CheeseButton.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppsCat/Cheese-gui/refs/heads/main/FlingGui"))()
 	end)
 end
-coroutine.wrap(WLIKMM_fake_script)()
-local function ESEOCPS_fake_script() -- InfYieldButton.LocalScript 
+coroutine.wrap(SBBPA_fake_script)()
+local function WIGB_fake_script() -- InfYieldButton.LocalScript 
 	local script = Instance.new('LocalScript', InfYieldButton)
 
 	InfYieldButton = script.Parent
@@ -317,8 +317,8 @@ local function ESEOCPS_fake_script() -- InfYieldButton.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(ESEOCPS_fake_script)()
-local function XHTB_fake_script() -- FlingGuiButton.LocalScript 
+coroutine.wrap(WIGB_fake_script)()
+local function RNGLY_fake_script() -- FlingGuiButton.LocalScript 
 	local script = Instance.new('LocalScript', FlingGuiButton)
 
 	FlingGuiButton = script.Parent
@@ -326,8 +326,8 @@ local function XHTB_fake_script() -- FlingGuiButton.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppsCat/Fling-Gui/refs/heads/main/Project%20Floppscat"))()
 	end)
 end
-coroutine.wrap(XHTB_fake_script)()
-local function INPKW_fake_script() -- CloseGuiButton.LocalScript 
+coroutine.wrap(RNGLY_fake_script)()
+local function ISCQL_fake_script() -- CloseGuiButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseGuiButton)
 
 	
@@ -335,16 +335,16 @@ local function INPKW_fake_script() -- CloseGuiButton.LocalScript
 		screenGui:Destroy()
 	end)
 end
-coroutine.wrap(INPKW_fake_script)()
-local function BWDGCRS_fake_script() -- Frame.LocalScript 
+coroutine.wrap(ISCQL_fake_script)()
+local function BEZLJ_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	Frame = script.Parent
 	Frame.Active = true
 	Frame.Draggable = true
 end
-coroutine.wrap(BWDGCRS_fake_script)()
-local function RTIGK_fake_script() -- AnimDelButton.LocalScript 
+coroutine.wrap(BEZLJ_fake_script)()
+local function FQRUMFN_fake_script() -- AnimDelButton.LocalScript 
 	local script = Instance.new('LocalScript', AnimDelButton)
 
 	R6Button = script.Parent
@@ -448,8 +448,8 @@ local function RTIGK_fake_script() -- AnimDelButton.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(RTIGK_fake_script)()
-local function UYFZ_fake_script() -- FlingAllButton.LocalScript 
+coroutine.wrap(FQRUMFN_fake_script)()
+local function HATV_fake_script() -- FlingAllButton.LocalScript 
 	local script = Instance.new('LocalScript', FlingAllButton)
 
 	FlingAllButton = script.Parent
@@ -457,8 +457,17 @@ local function UYFZ_fake_script() -- FlingAllButton.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppsCat/Fling-all-gui/refs/heads/main/ProjectDestroyer"))()
 	end)
 end
-coroutine.wrap(UYFZ_fake_script)()
-local function MBGLXKL_fake_script() -- AntiFlingButton.LocalScript 
+coroutine.wrap(HATV_fake_script)()
+local function ISOK_fake_script() -- SSGuiButton.LocalScript 
+	local script = Instance.new('LocalScript', SSGuiButton)
+
+	local SSGuiButton = script.Parent
+	SSGuiButton.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppsCat/SS-Gui/refs/heads/main/Floppa"))()
+	end)
+end
+coroutine.wrap(ISOK_fake_script)()
+local function QTCT_fake_script() -- AntiFlingButton.LocalScript 
 	local script = Instance.new('LocalScript', AntiFlingButton)
 
 	AntiFlingButton = script.Parent
@@ -486,4 +495,4 @@ local function MBGLXKL_fake_script() -- AntiFlingButton.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(MBGLXKL_fake_script)()
+coroutine.wrap(QTCT_fake_script)()
