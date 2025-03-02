@@ -1,3 +1,5 @@
+-- Gui to Lua
+-- Version: 3.2
 
 -- Instances:
 
@@ -22,6 +24,10 @@ local TextLabel_10 = Instance.new("TextLabel")
 local AnimDelButton = Instance.new("TextButton")
 local FlingAllButton = Instance.new("TextButton")
 local TextLabel_11 = Instance.new("TextLabel")
+local SSGuiButton = Instance.new("TextButton")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local AntiFlingButton = Instance.new("TextButton")
 
 --Properties:
 
@@ -245,9 +251,56 @@ TextLabel_11.Text = ""
 TextLabel_11.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_11.TextSize = 14.000
 
+SSGuiButton.Name = "SSGuiButton"
+SSGuiButton.Parent = Frame
+SSGuiButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+SSGuiButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SSGuiButton.BorderSizePixel = 0
+SSGuiButton.Position = UDim2.new(0, 0, 0.67519182, 0)
+SSGuiButton.Size = UDim2.new(0, 199, 0, 50)
+SSGuiButton.Font = Enum.Font.SourceSans
+SSGuiButton.Text = "SS Gui"
+SSGuiButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+SSGuiButton.TextSize = 30.000
+
+TextLabel_12.Parent = Frame
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+TextLabel_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(1.24257236e-08, 0, 0.61892581, 0)
+TextLabel_12.Size = UDim2.new(0, 199, 0, 22)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = ""
+TextLabel_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.TextSize = 14.000
+
+TextLabel_13.Parent = Frame
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+TextLabel_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_13.BorderSizePixel = 0
+TextLabel_13.Position = UDim2.new(0.358306199, 0, 0.271099746, 0)
+TextLabel_13.Size = UDim2.new(0, 189, 0, 18)
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = ""
+TextLabel_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_13.TextSize = 14.000
+
+AntiFlingButton.Name = "AntiFlingButton"
+AntiFlingButton.Parent = Frame
+AntiFlingButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+AntiFlingButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AntiFlingButton.BorderSizePixel = 0
+AntiFlingButton.Position = UDim2.new(0.358306199, 0, 0.317135543, 0)
+AntiFlingButton.Size = UDim2.new(0, 189, 0, 50)
+AntiFlingButton.Font = Enum.Font.SourceSans
+AntiFlingButton.Text = "Anti Fling"
+AntiFlingButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+AntiFlingButton.TextSize = 30.000
+AntiFlingButton.TextWrapped = true
+
 -- Scripts:
 
-local function DGRTFI_fake_script() -- CheeseButton.LocalScript 
+local function WLIKMM_fake_script() -- CheeseButton.LocalScript 
 	local script = Instance.new('LocalScript', CheeseButton)
 
 	CheeseButton = script.Parent
@@ -255,8 +308,8 @@ local function DGRTFI_fake_script() -- CheeseButton.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppsCat/Cheese-gui/refs/heads/main/FlingGui"))()
 	end)
 end
-coroutine.wrap(DGRTFI_fake_script)()
-local function APDD_fake_script() -- InfYieldButton.LocalScript 
+coroutine.wrap(WLIKMM_fake_script)()
+local function ESEOCPS_fake_script() -- InfYieldButton.LocalScript 
 	local script = Instance.new('LocalScript', InfYieldButton)
 
 	InfYieldButton = script.Parent
@@ -264,8 +317,8 @@ local function APDD_fake_script() -- InfYieldButton.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(APDD_fake_script)()
-local function RGIWM_fake_script() -- FlingGuiButton.LocalScript 
+coroutine.wrap(ESEOCPS_fake_script)()
+local function XHTB_fake_script() -- FlingGuiButton.LocalScript 
 	local script = Instance.new('LocalScript', FlingGuiButton)
 
 	FlingGuiButton = script.Parent
@@ -273,26 +326,25 @@ local function RGIWM_fake_script() -- FlingGuiButton.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppsCat/Fling-Gui/refs/heads/main/Project%20Floppscat"))()
 	end)
 end
-coroutine.wrap(RGIWM_fake_script)()
-local function ARNTB_fake_script() -- CloseGuiButton.LocalScript 
+coroutine.wrap(XHTB_fake_script)()
+local function INPKW_fake_script() -- CloseGuiButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseGuiButton)
 
-	local screenGui = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-	local CloseGuiButton = script.Parent
+	
 	CloseGuiButton.MouseButton1Click:Connect(function()
 		screenGui:Destroy()
 	end)
 end
-coroutine.wrap(ARNTB_fake_script)()
-local function JPEAD_fake_script() -- Frame.LocalScript 
+coroutine.wrap(INPKW_fake_script)()
+local function BWDGCRS_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	Frame = script.Parent
 	Frame.Active = true
 	Frame.Draggable = true
 end
-coroutine.wrap(JPEAD_fake_script)()
-local function ORII_fake_script() -- AnimDelButton.LocalScript 
+coroutine.wrap(BWDGCRS_fake_script)()
+local function RTIGK_fake_script() -- AnimDelButton.LocalScript 
 	local script = Instance.new('LocalScript', AnimDelButton)
 
 	R6Button = script.Parent
@@ -396,8 +448,8 @@ local function ORII_fake_script() -- AnimDelButton.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(ORII_fake_script)()
-local function USFWIZW_fake_script() -- FlingAllButton.LocalScript 
+coroutine.wrap(RTIGK_fake_script)()
+local function UYFZ_fake_script() -- FlingAllButton.LocalScript 
 	local script = Instance.new('LocalScript', FlingAllButton)
 
 	FlingAllButton = script.Parent
@@ -405,4 +457,33 @@ local function USFWIZW_fake_script() -- FlingAllButton.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppsCat/Fling-all-gui/refs/heads/main/ProjectDestroyer"))()
 	end)
 end
-coroutine.wrap(USFWIZW_fake_script)()
+coroutine.wrap(UYFZ_fake_script)()
+local function MBGLXKL_fake_script() -- AntiFlingButton.LocalScript 
+	local script = Instance.new('LocalScript', AntiFlingButton)
+
+	AntiFlingButton = script.Parent
+	AntiFlingButton.MouseButton1Click:Connect(function()
+		local Players = game:GetService("Players")
+		local RunService = game:GetService("RunService")
+		local Player = Players.LocalPlayer
+	
+		RunService.Stepped:Connect(function()
+			for _, CoPlayer in pairs(Players:GetChildren()) do
+				if CoPlayer ~= Player and CoPlayer.Character then
+					for _, Part in pairs(CoPlayer.Character:GetChildren()) do
+						if Part.Name == "HumanoidRootPart" then
+							Part.CanCollide = false
+						end
+					end
+				end
+			end
+	
+			for _, Accessory in pairs(workspace:GetChildren()) do
+				if Accessory:IsA("Accessory") and Accessory:FindFirstChildWhichIsA("Part") then
+					Accessory:FindFirstChildWhichIsA("Part"):Destroy()
+				end
+			end
+		end)
+	end)
+end
+coroutine.wrap(MBGLXKL_fake_script)()
